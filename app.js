@@ -1,3 +1,5 @@
+let rule = CSSRulePlugin.getRule("span:after");
+
 gsap.from(".anim1", {
   opacity: 0,
   duration: 2,
@@ -13,6 +15,8 @@ gsap.from(".swirl", {
   ease: "elastic(1, .9)",
   delay: 1.4,
 });
+
+gsap.to(rule, { cssRule: { scaleY: 0 }, duration: 1 });
 
 gsap.from("aside", {
   opacity: 0,
