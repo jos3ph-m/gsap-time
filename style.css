@@ -32,6 +32,7 @@ main .content {
 .content h1 {
   font-size: 3em;
   position: relative;
+  font-weight: bold;
 }
 
 h1 span {
@@ -75,7 +76,7 @@ span:after {
   left: 0;
   width: 100%;
   height: 100%;
-  background: white;
+  background: #fff;
   z-index: 1;
   transform-origin: 100% 0;
 }

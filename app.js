@@ -11,12 +11,12 @@ gsap.from(".anim1", {
 gsap.from(".swirl", {
   opacity: 0.1,
   duration: 4,
-  y: 400,
+  y: 100,
   ease: "elastic(1, .9)",
   delay: 1.4,
 });
 
-gsap.to(rule, { cssRule: { scaleY: 0 }, duration: 1 });
+gsap.to(rule, { cssRule: { scaleY: 0, width: "50px" }, duration: 1 });
 
 gsap.from("aside", {
   opacity: 0,
