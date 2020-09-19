@@ -9,11 +9,11 @@ gsap.from(".anim1", {
 });
 
 gsap.from(".swirl", {
-  opacity: 0.1,
+  opacity: 0,
   duration: 4,
-  y: 100,
+  y: 400,
   ease: "elastic(1, .9)",
-  delay: 1.4,
+  delay: 2.4,
 });
 
 gsap.to(rule, { cssRule: { scaleY: 0, width: "50px" }, duration: 1 });
