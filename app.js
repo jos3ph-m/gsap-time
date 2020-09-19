@@ -16,11 +16,11 @@ gsap.from(".swirl", {
   delay: 2.4,
 });
 
-gsap.to(rule, { cssRule: { scaleY: 0, width: "50px" }, duration: 1 });
+gsap.to(rule, { cssRule: { scaleY: 0 }, duration: 1 });
 
 gsap.from("aside", {
   opacity: 0,
-  backgroundPosition: "200px 0px",
+  backgroundPosition: "300px 0px",
   duration: 5,
   ease: "elastic(1, .9)",
   delay: 1.1,
