@@ -19,8 +19,8 @@ gsap.from(".swirl", {
 gsap.to(rule, { cssRule: { scaleY: 0 }, duration: 1 });
 
 gsap.from("aside", {
-  opacity: 0,
-  backgroundPosition: "300px 0px",
+  opacity: 0.3,
+  backgroundPosition: "100px 0px",
   duration: 5,
   ease: "elastic(1, .9)",
   delay: 1.1,
